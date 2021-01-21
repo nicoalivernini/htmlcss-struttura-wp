@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.row{
+  margin: 0 15px;
+  height: 50px;
+}
+
+.col-100{
+  width: 100%;
+}
+
+.bg-pink{
+  height: 100px;
+  background-color: rgb(215, 129, 224);
+  margin-top: 10px;
+}
