@@ -13,63 +13,76 @@ main.container > section {
   margin-top: 10px;
 }
 
-.row{
-
-}
-
 .row:after {
   content: '';
   display: table;
   clear: both;
 }
 
-.col-100{
+[class^="col-"] {
+  float: left;
+}
+
+/* ---- Utility ---- */
+
+.col-100 {
   width: 100%;
-  float: left;
 }
 
-.col-50{
+.col-50 {
   width: 50%;
-  float: left;
 }
 
-.col-25{
+.col-25 {
   width: 25%;
-  float: left;
 }
 
-.mt-10{
+.mar-top-10 {
   margin-top: 10px;
 }
 
-.pad-bot-10{
+.pad-bot-10 {
   padding-bottom: 10px;
 }
 
-.pad-left-10{
+.pad-left-10 {
   padding-left: 10px;
 }
 
-.pad-right-10{
+.pad-right-10 {
   padding-right: 10px;
 }
 
-.bg-pink{
-  height: 50px;
-  background-color: rgb(215, 129, 224);
-
+.alt-300 {
+  height: 300px;
 }
 
-.bg-yellow{
-  height: 400px;
+.alt-50 {
+  height: 50px;
+}
+
+/* ---- Utility ---- */
+
+/* ---- Background ---- */
+
+.bg-pink {
+  background-color: rgb(215, 129, 224);
+}
+
+.bg-yellow {
   background-color: rgb(223, 214, 134);
 }
 
 .bg-cyan {
   background-color: rgb(178, 206, 228);
-  height: 50px;
 }
 
-.bg-blue{
-  background-color: blue;
+.bg-blue {
+  background-color: rgb(60, 147, 248);
 }
+
+.bg-purple {
+  background-color: rgb(124, 39, 245);
+}
+
+/* ---- Background ---- */
