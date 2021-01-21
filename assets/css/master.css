@@ -7,11 +7,14 @@
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+main.container > section {
   margin-top: 10px;
 }
 
 .row{
-  
+
 }
 
 .row:after {
@@ -22,8 +25,33 @@
 
 .col-100{
   width: 100%;
-
   float: left;
+}
+
+.col-50{
+  width: 50%;
+  float: left;
+}
+
+.col-25{
+  width: 25%;
+  float: left;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.pad-bot-10{
+  padding-bottom: 10px;
+}
+
+.pad-left-10{
+  padding-left: 10px;
+}
+
+.pad-right-10{
+  padding-right: 10px;
 }
 
 .bg-pink{
@@ -35,4 +63,13 @@
 .bg-yellow{
   height: 400px;
   background-color: rgb(223, 214, 134);
+}
+
+.bg-cyan {
+  background-color: rgb(178, 206, 228);
+  height: 50px;
+}
+
+.bg-blue{
+  background-color: blue;
 }
