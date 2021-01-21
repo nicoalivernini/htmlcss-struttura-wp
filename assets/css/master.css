@@ -4,19 +4,35 @@
   box-sizing: border-box;
 }
 
-
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 
 .row{
-  margin: 0 15px;
-  height: 50px;
+  
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .col-100{
   width: 100%;
+
+  float: left;
 }
 
 .bg-pink{
-  height: 100px;
+  height: 50px;
   background-color: rgb(215, 129, 224);
-  margin-top: 10px;
+
+}
+
+.bg-yellow{
+  height: 400px;
+  background-color: rgb(223, 214, 134);
 }
